@@ -7,10 +7,12 @@ Gosto de construir sistemas que resolvem problemas de verdade do dia a dia de pe
 ### O que estou construindo
 
 **Conecta Kids** · sistema de gestão para creches *(código privado)*
+
 Matrículas, agenda diária das crianças, frequência, saída segura, recados para as famílias, mensalidades com Pix, contas a pagar com leitura de nota fiscal e relatórios. Tem aplicativo no celular, backup criptografado, adequação à LGPD e verificação automática a cada envio.
 `PHP` `CakePHP 5` `PostgreSQL` `Twig` `Docker`
 
 **[Calculadora](https://github.com/conectakidssuporte-ai/calculadora)** · [abrir no navegador](https://conectakidssuporte-ai.github.io/calculadora/)
+
 Calculadora com ordem das operações, porcentagem, histórico, uso pelo teclado e tema claro e escuro. Lógica separada da tela, testes automáticos e publicação pelo GitHub Actions.
 `JavaScript` `HTML` `CSS` `Node.js`
 
