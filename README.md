@@ -28,4 +28,5 @@ Calculadora com ordem das operações, porcentagem, histórico, uso pelo teclado
 
 ### Contato
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-dorzanio-4254a9234/)
 [![Instagram](https://img.shields.io/badge/Paulinho_Assistência_Técnica-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/paulinhoassistencia)
