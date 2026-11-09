@@ -1,0 +1,30 @@
+# Gera os cartões do perfil uma vez por dia e guarda as imagens neste repositório,
+# para elas não dependerem de serviço externo na hora de abrir o perfil.
+name: Cartões do perfil
+
+on:
+  schedule:
+    - cron: '17 9 * * *'   # todo dia, 6h17 em Fortaleza
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/cartoes.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cartoes
+  cancel-in-progress: true
+
+jobs:
+  cartoes:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH: main

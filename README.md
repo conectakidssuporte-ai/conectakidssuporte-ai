@@ -20,6 +20,14 @@ Calculadora com ordem das operações, porcentagem, histórico, uso pelo teclado
 
 [![Tecnologias](https://skillicons.dev/icons?i=php,postgres,docker,js,html,css,python,git,github,linux&perline=10)](https://skillicons.dev)
 
+### Números no GitHub
+
+<p>
+  <img height="170" src="profile-summary-card-output/tokyonight/3-stats.svg" alt="Estatísticas no GitHub" />
+  <img height="170" src="profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Linguagens mais usadas" />
+</p>
+<img width="100%" src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Contribuições no GitHub" />
+
 ### Estudando agora
 
 - Análise e Desenvolvimento de Sistemas (Estácio)
