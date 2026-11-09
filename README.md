@@ -20,13 +20,6 @@ Calculadora com ordem das operações, porcentagem, histórico, uso pelo teclado
 
 [![Tecnologias](https://skillicons.dev/icons?i=php,postgres,docker,js,html,css,python,git,github,linux&perline=10)](https://skillicons.dev)
 
-### Números no GitHub
-
-<a href="https://github.com/conectakidssuporte-ai">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=conectakidssuporte-ai&show_icons=true&theme=tokyonight&hide_border=true&locale=pt-br" alt="Estatísticas no GitHub" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=conectakidssuporte-ai&layout=compact&theme=tokyonight&hide_border=true&locale=pt-br" alt="Linguagens mais usadas" />
-</a>
-
 ### Estudando agora
 
 - Análise e Desenvolvimento de Sistemas (Estácio)
