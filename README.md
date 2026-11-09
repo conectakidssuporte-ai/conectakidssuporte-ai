@@ -28,6 +28,11 @@ Calculadora com ordem das operações, porcentagem, histórico, uso pelo teclado
 </p>
 <img width="100%" src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Contribuições no GitHub" />
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/conectakidssuporte-ai/conectakidssuporte-ai/output/cobrinha-escura.svg" />
+  <img width="100%" alt="Cobrinha comendo os quadradinhos de contribuição" src="https://raw.githubusercontent.com/conectakidssuporte-ai/conectakidssuporte-ai/output/cobrinha.svg" />
+</picture>
+
 ### Estudando agora
 
 - Análise e Desenvolvimento de Sistemas (Estácio)

@@ -31,3 +31,23 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: main
           UTC_OFFSET: -3
+
+  cobrinha:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/cobrinha.svg
+            dist/cobrinha-escura.svg?palette=github-dark
+
+      # as imagens ficam no ramo "output", separado do main, para não encher o histórico
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Atualiza a cobrinha
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
